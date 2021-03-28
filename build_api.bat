@@ -1,0 +1,1 @@
+java -jar swagger-codegen-cli-3.0.25.jar generate -l python -i gtapi_1.0.yml

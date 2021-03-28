@@ -1,0 +1,65 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+       "title": "Power Query",
+       "version": "1.0"
+    },
+    "servers": [
+       {
+          "url": "https://api.server.test/v1"
+       }
+    ],
+    "paths": {
+       "/table": {
+          "get": {
+             "description": "Get Database",
+             "responses": {
+                "200": {
+                   "description": "OK"
+                }
+             }
+          },
+          "put": {
+             "description": "Get Database",
+             "responses": {
+                "200": {
+                   "description": "OK"
+                }
+             }
+          }
+       },
+       "/db": {
+          "get": {
+             "responses": {
+                "200": {
+                   "description": "OK"
+                }
+             }
+          },
+          "put": {
+             "description": "Create New Database",
+             "responses": {
+                "200": {
+                   "description": "Database Created"
+                }
+             }
+          },
+          "delete": {
+             "description": "Drop Database",
+             "responses": {
+                "200": {
+                   "description": "OK"
+                }
+             }
+          },
+          "post": {
+             "description": "Update Database",
+             "responses": {
+                "200": {
+                   "description": "OK"
+                }
+             }
+          }
+       }
+    }
+ }
