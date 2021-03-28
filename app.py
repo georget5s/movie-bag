@@ -45,4 +45,5 @@ def get_movie(id):
     movie = Movie.objects.get(id=id).to_json()
     return Response(movie, mimetype="application/json", status=200)
 
-app.run()
+if __name__ == "__main__":
+    app.run()
